@@ -27,8 +27,6 @@ public class BlogPostController {
 		return "blog/index";
 	}
 
-	private BlogPost blogPost;
-
 	@PostMapping(value = "/blog")
 	public String addNewBlogPost(BlogPost blogPost, Model model) {
 		blogPostRepository.save(blogPost);
