@@ -1,0 +1,87 @@
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #232323;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  border-top: 4px solid #264653;
+}
+
+.navbar {
+  background-color: #f2f1f1;
+}
+
+.nav-item {
+  font-family: "Varela Round", sans-serif;
+}
+
+.jumbotron {
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+  border-radius: 0%;
+  height: 6.875rem;
+  padding: 2rem 1rem;
+  width: 90%;
+}
+
+.brand {
+  color: #232323;
+}
+
+.brand:hover {
+  color: #2a9d8f;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.card-columns {
+  column-count: 2;
+  column-gap: 0.75rem;
+}
+
+.card {
+  min-width: calc(50% - 10px);
+}
+
+.author {
+  color: #2a9d8f;
+}
+
+p {
+  white-space: pre-line;
+}
+
+.footer {
+  background-color: #264653;
+  color: #fff;
+  font-family: "Varela Round", sans-serif;
+  letter-spacing: 0.031em;
+  padding: 3em 3.125%;
+  text-transform: uppercase;
+}
