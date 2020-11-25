@@ -85,3 +85,7 @@ p {
   padding: 3em 3.125%;
   text-transform: uppercase;
 }
+
+.modal-dialog {
+  margin-top: 10em;
+}
